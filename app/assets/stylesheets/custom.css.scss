@@ -1,4 +1,4 @@
-$navbar-default-bg: #29D9C2;
+$navbar-default-bg: #337ab7;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -18,7 +18,7 @@ $navbar-default-bg: #29D9C2;
 }
 
 .btn-custom{
-	background-color: #29D9C2;
+	background-color: #337ab7;
 	color: #ffffff;
 }
 
@@ -35,7 +35,7 @@ $navbar-default-bg: #29D9C2;
 footer {
 	margin-top: 200px;
 	padding-top: 20px;
-	border-top: 1px solid #29D9C2;
+	border-top: 1px solid #337ab7;
 	color: #777;
 	text-align: center;
 }
@@ -46,4 +46,8 @@ footer ul {
 
 footer ul li {
 	list-style-type: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
 }
